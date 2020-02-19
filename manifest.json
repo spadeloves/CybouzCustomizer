@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Cybouz Banner Exchanger",
+	"version": "0.1",
+	"author": "Yuta Okuzono",
+	"web_accessible_resources": ["*"],
+	"description": "Exchange the banner image of Cybouz.",
+	"permissions":["clipboardRead","tabs","storage"],
+	"content_scripts": [
+    {
+      "matches": ["https://ss-cy10.systemsoft.co.jp/*"],
+			"css": ["cybouz/style.css"]
+    }
+  ],
+
+	"browser_action": {
+		"default_title": "Cybouz Banner Exchanger",
+		"default_popup": "popup.html"
+	}
+}

@@ -1,0 +1,158 @@
+/* 企業ロゴ */
+.headbar table td.vr_logo img:not(:target) {
+  /* 画像の差し替えは、別拡張機能で代用 */
+  /* https://chrome.google.com/webstore/detail/image-switcher/agbenbfomghnjfbelmoeplkjcflogomb */
+  width: 65px;
+}
+
+
+/* グローバルメニュー背景 */
+div.vr_naviAppMenu {
+  background-image: url(https://bubbleblabber-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/RAM_LOGO_FINAL.jpg)!important;
+  background-color: #000000!important;
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  border-bottom: solid 1px #00ee00;
+}
+
+/* トップ　各メニューのヘッダ部分背景 */
+.portlet .hd {
+  background-image: url(https://bubbleblabber-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/RAM_LOGO_FINAL.jpg)!important;
+  background-color: #000000!important;
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+}
+
+/* TOPアイコン */
+.appMenuItem .appMenuAGIndex {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/9902640a-imgbin_rick-sanchez-rick-and-morty-png_uvwy2qpp.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* 掲示板 */
+.appMenuItem .appMenuBulletinIndex {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/ca3f0868-imgbin_rick-sanchez-pickle-rick-rick-and-morty-png_xtezhqut.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* 個人フォルダ */
+.appMenuItem .appMenuMyFolderIndex {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/ef90286a-kisspng-fan-art-character-cartoon-rick-and-morty-5ac91526ac69f0.5025876715231275907062.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* ファイル管理 */
+.appMenuItem .appMenuFileIndex {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/1a248504-kisspng-morty-smith-rick-sanchez-summer-smith-television-a-rick-and-morty-character-transparent-amp-png-cli-5ca78738ebd664.423377791554483000966.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* ワークフロー */
+.appMenuItem .appMenuWorkFlowIndex {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/47118640-kisspng-snout-clip-art-sticker-forehead-sticker-telegram-snout-clip-art-others-512-512-t-5b690d71caeec9.3768767915336113778312.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* スケジュール */
+.appMenuItem .appMenuScheduleIndex {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/df462933-kisspng-rick-sanchez-morty-smith-lawnmower-dog-scientist-n-5af4f92bc144b5.4062790715260040117916.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* 施設予約 */
+.appMenuItem .appMenuScheduleFacility {
+  background-image: url(https://storage.googleapis.com/wordpress-wasureppoilog/2020/01/1df83003-kisspng-sticker-telegram-rick-sanchez-emoji-pickle-rick-5af2ff5190c747.494683451525874513593.png)!important;
+  background-position: center;
+  background-size: contain;
+}
+
+/* メニューバー表示切り替え部分の色指定 */
+#appmenuToggler {
+  background-color: #000000!important;
+  border-top-color: #00ee00!important;
+  border-bottom-color: #46e624!important;
+}
+
+/* メニューバー切り替えのセンターにあるボタン背景指定 */
+/* 開いているとき */
+#appmenuToggler.appmenuExpand .appmenuToggleButton {
+  /* background-image: url(../../image/theme-coffee/vr_appmenu_togglebar_symbol_expand.png)!important; */
+  background-color: #00ee00!important;
+}
+/* 閉じているとき */
+#appmenuToggler.appmenuCollapse .appmenuToggleButton {
+  /* background-image: url(../../image/theme-coffee/vr_appmenu_togglebar_symbol_collapse.png)!important; */
+  background-color: #00ee00!important;
+}
+
+/* そもそもボタンが要らない場合はここをコメント外す */
+#appmenuToggler{
+  display: none!important;
+}
+
+/* フッター */
+.footbar {
+  background-image: none!important;
+  background-color: #000000!important;
+  border-top: solid 1px #00ee00;
+}
+
+/* トップへのスクロールボタン */
+a.vr_scrollUp {
+  background-color: #00ee00!important;
+  color: #000000!important;
+}
+
+/* 背景色、全体文字色 */
+body {
+  background-color: #000000!important;
+  color: #3d3f43!important;
+}
+
+/* パンくず背景 */
+.pathbar, .pathbarNoMenu {
+  background-color: #000000!important;
+  color: #46e624!important;
+}
+
+/* パンくずリンク */
+.pathbar a {
+  color: #46e624!important;
+}
+.pathbarNoMenu a{
+  color: #46e624!important;
+}
+
+/* パンくず各括弧 */
+.vr_pathCurrent {
+  background-image: none!important;
+}
+.vr_pathWrap{
+  background-image: none!important;
+}
+
+/* スケジュール画面上部背景色 */
+.menubar, .menuRow, td.dz_menuRow, td.vr_menuRow {
+  background-color: #000000!important;
+}
+
+/* スケジュール詳細画面上部リンク文字色 */
+.menubar td a{
+  color: #46e624!important;
+}
+
+/* スケジュール詳細上部「この日の予定を表示する」リンク */
+.headerschedulehHeader {
+  color: #ffffff!important;
+}
+.headerschedulehHeader a{
+  color: #46e624!important;
+}
